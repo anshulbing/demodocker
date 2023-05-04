@@ -1,0 +1,10 @@
+image: voodoojs/hellojs
+manifests:
+  -image: voodoojs/hellojs:linux-amd64
+   platform:
+      architecture: amd64
+      os: linux
+  -image: voodoojs/hellojs:windows-amd64
+   platform:
+      architecture: amd64
+      os: windows
